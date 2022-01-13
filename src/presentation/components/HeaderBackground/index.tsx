@@ -1,33 +1,91 @@
 function HeaderBackground() {
   return (
-    <div className="bg-white py-16 lg:py-24" style={{ marginTop: '-5rem' }}>
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative py-24 px-8 bg-amber-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
-          <div className="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-            <img
-              src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80"
-              alt=""
-              className="w-full h-full object-cover"
-            />
+<main>
+        <div>
+          {/* Hero card */}
+          <div className="relative">
+            <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+            <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+              <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+                <div className="absolute inset-0">
+                  <img
+                    className="h-full w-full object-cover"
+                    src="./bg-fighter.jpg"
+                    alt="People working on laptops"
+                  />
+                  <div className="absolute inset-0 bg-[#a99260] mix-blend-multiply" />
+                </div>
+                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+                  <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+                    <span className="block text-white">Take control of your</span>
+                    <span className="block text-[#a99260]">customer support</span>
+                  </h1>
+                  <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
+                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
+                    amet fugiat veniam occaecat fugiat aliqua.
+                  </p>
+                  <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                    <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
+                      <a
+                        href="#"
+                        className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-[#a99260] bg-white hover:bg-indigo-50 sm:px-8"
+                      >
+                        Get started
+                      </a>
+                      <a
+                        href="#"
+                        className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#a99260] bg-opacity-60 hover:bg-opacity-70 sm:px-8"
+                      >
+                        Live demo
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="relative lg:col-span-1">
-            <img className="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" />
-            <blockquote className="mt-6 text-white">
-              <p className="text-xl font-medium sm:text-2xl">
-                Workflow has completely transformed how we interact with customers. We've seen record bookings, higher
-                customer satisfaction, and reduced churn.
+
+          {/* Logo cloud */}
+          <div className="bg-gray-100">
+            <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+              <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
+                Trusted by over 5 very average small businesses
               </p>
-              <footer className="mt-6">
-                <p className="flex flex-col font-medium">
-                  <span>Marie Chilvers</span>
-                  <span>CEO, Workcation</span>
-                </p>
-              </footer>
-            </blockquote>
+              <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <img className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <img className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <img
+                    className="h-12"
+                    src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
+                    alt="StaticKit"
+                  />
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+                  <img
+                    className="h-12"
+                    src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
+                    alt="Transistor"
+                  />
+                </div>
+                <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                  <img
+                    className="h-12"
+                    src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
+                    alt="Workcation"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+
+        {/* More main page content here... */}
+      </main>
   )
 }
 
