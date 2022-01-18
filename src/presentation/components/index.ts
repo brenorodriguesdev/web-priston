@@ -1,4 +1,5 @@
-export * from './HeaderBackground'
-export * from './HeaderBar'
 export * from './Header'
+export * from './HeaderBar'
+export * from './HeaderBackground'
+export * from './News'
 export * from './Footer'
