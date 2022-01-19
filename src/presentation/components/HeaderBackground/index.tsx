@@ -1,6 +1,6 @@
 function HeaderBackground() {
   return (
-    <main>
+    <main style={{marginTop: '2rem'}}>
       <div>
         <div className="relative">
           <div className="absolute inset-x-0 bottom-0 h-2/8 bg-gray-100" />
