@@ -30,7 +30,7 @@ const posts = [
 
 function News() {
     return (
-        <div className="relative bg-gray-50 pt-6 pb-20 px-4 sm:px-6 lg:pt-10 lg:pb-8 lg:px-8" >
+        <div className="relative bg-gray-50 pt-6 pb-20 px-4 sm:px-6 lg:pt-10 lg:pb-1 lg:px-8" >
             <div className="absolute inset-0">
                 <div className="bg-white h-1/7 sm:h-2/8" />
             </div>
