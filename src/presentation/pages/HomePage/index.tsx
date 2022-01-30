@@ -1,4 +1,4 @@
-import { Header, News, Footer } from "../../components";
+import { Header, News, TopRanking, Footer } from "../../components";
 //import { News } from "../../components";
 
 function HomePage() {
@@ -6,6 +6,7 @@ function HomePage() {
         <>
             <Header />
             <News />
+            <TopRanking />
             <Footer />
         </>
     )
